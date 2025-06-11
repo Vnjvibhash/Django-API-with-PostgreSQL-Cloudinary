@@ -98,6 +98,20 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+### ⚙️ Environment Variables (Optional)
+Use .env to manage sensitive keys:
+```bash
+DB_NAME=
+DB_USER=
+DB_PASS=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+SECRET_KEY=
+```
+
 ### 🧑‍💻 Author
 **Vivek Kumar**
 
