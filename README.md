@@ -112,7 +112,7 @@ EMAIL_HOST_PASSWORD=
 SECRET_KEY=
 ```
 
-### 🧑‍💻 Author
+## 🧑‍💻 Author
 **Vivek Kumar**
 
 💻 Mobile App Developer & Tech Enthusiast
