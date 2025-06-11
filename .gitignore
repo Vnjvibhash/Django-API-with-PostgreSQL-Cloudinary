@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+pip-wheel-metadata/
+*.pyo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+*.db
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py~ 
+*/migrations/*.py.old
+
+# Environment variables and config
+.env
+*.env
+secret_key.txt
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Static and media
+/static/
+/media/
+/media_root/
+/static_root/
+
+# VS Code
+.vscode/
+.code-workspace
+
+# Cloudinary
+cloudinary_cache/
+
+# JWT Blacklist (if using file-based or caching)
+jwt_blacklist/
+
+# Coverage & testing
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+.pytest_cache/
+.cache/
+.tox/
+
+# Node (if using Tailwind or frontend builds)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Pycharm
+.idea/
+
+# Mac OS
+*.DS_Store
