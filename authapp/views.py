@@ -88,7 +88,6 @@ class LoginView(APIView):
                 return Response({'error': 'Email not verified'}, status=403)
         return Response(serializer.errors, status=400)
 
-
 class ForgotPasswordView(APIView):
     def post(self, request):
         serializer = ForgotPasswordSerializer(data=request.data)
